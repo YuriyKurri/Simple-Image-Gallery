@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Practice</title>
+   <style>
+      * {
+         margin: 0;
+         padding: 0;
+      }
+      body {
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         padding: 40px;
+         background-color: #333;
+         color: white;
+      }
+      h1 {
+         margin-bottom: 20px;
+      }
+      img {
+         display: inline;
+      }
+      .main {
+         display: flex;
+         gap: 10px;
+      }
+      .gallery1, .gallery2, .gallery3, .gallery4 {
+         width: 200px;
+         border: 1px solid white;
+      }
+      .gallery1:hover, .gallery2:hover, .gallery3:hover, .gallery4:hover {
+         border-color: #999;
+      }
+      .gal-pic {
+         width: 200px;
+         text-align: center;
+         margin: 20px 0;
+      }
+   </style>
+</head>
+<body>
+   <h1>Gallery</h1>
+   <div class="main">
+      <div class="gallery1">
+         <a href=""><img src="https://picsum.photos/500" alt="" width="200px"></a>
+         <p class="gal-pic">This is where the description of this image goes.</p>
+      </div>
+      <div class="gallery2">
+         <a href=""></a><img src="https://picsum.photos/400" alt="" width="200px"></a>
+         <p class="gal-pic">This is where the description of this image goes.</p>
+      </div>
+      <div class="gallery3">
+         <a href=""></a><img src="https://picsum.photos/300" alt="" width="200px"></a>
+         <p class="gal-pic">This is where the description of this image goes.</p>
+      </div>
+      <div class="gallery4">
+         <a href=""></a><img src="https://picsum.photos/200" alt="" width="200px"></a>
+         <p class="gal-pic">This is where the description of this image goes.</p>
+      </div>
+   </div>
+</body>
+</html>
